@@ -1,0 +1,6 @@
+﻿services:
+  roomspot.api:
+    image: roomspot.api
+    build:
+      context: .
+      dockerfile: Roomspot.API/Dockerfile
